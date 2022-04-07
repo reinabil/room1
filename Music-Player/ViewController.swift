@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nextMusicBtn: UIButton!
     @IBOutlet weak var resetFavesBtn: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -61,7 +62,7 @@ class ViewController: UIViewController {
         if arrOfMusic[0].isFavorite! {
             favMusicBtn.setImage(UIImage(systemName: "heart.fill"), for: .normal)
         }
-        
+        print("halo")
     }
     
     @IBAction func pressNext(_ sender: Any) {

@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     /// Data Control
     var currMusic = 0
     var currState = false
+    var testCommit = false
     
     /// Outlets
     @IBOutlet weak var imageCoverImage: UIImageView!

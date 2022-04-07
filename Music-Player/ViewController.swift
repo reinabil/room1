@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     var currState = false
     var testCommit = false
     var test = true
+    var reset = true
     
     /// Outlets
     @IBOutlet weak var imageCoverImage: UIImageView!
